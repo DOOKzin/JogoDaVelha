@@ -228,9 +228,9 @@ function declareWinner(winner){
         msg = "VITORIA DO JOGADOR 1!!"
     }else if (winner == 'o' && secondPlayer == 'ia-player') {
         scoreboardY.textContent = parseInt(scoreboardY.textContent) + 1;
-        msg = "A IA VENCEU!";
+        msg = " A IA VENCEU!!";
  
-    }else if(winner == 'o'){
+    }else if(winner == 'o' ){
         scoreboardY.textContent = parseInt(scoreboardY.textContent) +1
         msg = "VITORIA DO JOGADOR 2!!"
     }else {
